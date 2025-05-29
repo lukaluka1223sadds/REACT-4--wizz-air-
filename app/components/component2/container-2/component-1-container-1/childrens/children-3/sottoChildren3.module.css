@@ -1,0 +1,48 @@
+.text1{
+    font-size: 80px;
+    display: block;
+    color: white;
+}
+
+.text2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Arial, sans-serif";
+
+}
+
+.div{
+     width: 1255px;
+}
+
+.carTrawler{
+    height: 116px;
+    width: 440px;
+    border-radius: 100px;
+    transform: translate(0 , 25px);
+}
+
+.register{
+    height: 420px;
+    width: 1350px;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-35px , 110px);
+    border-radius: 30px;
+}
+
+.img2{
+    height: 420px;
+    width: 632px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.carTrawlerModif{
+    height: 122px;
+    width: 446px;
+    border-radius: 100px;
+    transform: translate(-3px , 22px);
+    .register{
+        transform: translate(-35px , 107px);
+    }
+}

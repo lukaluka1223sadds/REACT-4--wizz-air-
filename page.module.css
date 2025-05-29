@@ -1,0 +1,21 @@
+.img1{
+    height: 60px;
+    width: 110px;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 20%;
+    margin:14px 0 0 40px
+}
+
+.menuBar{
+    background-color: rgb(13, 22, 153);
+    color: white; 
+    height: 85px;
+}
+
+.div2{
+    color: white;
+}
+
+.col1{
+    padding: 21px 0 0 170px;
+}

@@ -1,0 +1,44 @@
+.Buttons {
+  height: 50px;
+  width: 180px;
+  border: 1px solid rgb(160, 150, 150);
+  border-radius: 6px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.Inputs {
+  height: 40px;
+  width: 180px;
+  border: 1px solid rgb(161, 159, 159);
+  border-radius: 6px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+}
+
+.Input1 {
+  height: 40px;
+  width: 140px;
+  margin-left: 10px;
+}
+
+.button_grid {
+  padding-top: 20px;
+}
+
+.clickArrMinus {
+  margin: 0 10px 0 8px;
+}
+
+.clickArrMinus3 {
+  margin: 0 0 0 21px;
+}
+
+.clickArrMinus2 {
+  margin: 0 0 0 24px;
+}
+
+.clickArrMinus1 {
+  margin: 0 0 0 36px;
+}/*# sourceMappingURL=page.module.css.map */

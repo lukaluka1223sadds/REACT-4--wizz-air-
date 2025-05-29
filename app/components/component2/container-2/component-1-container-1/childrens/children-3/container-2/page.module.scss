@@ -1,0 +1,53 @@
+.input_1{
+    height: 40px;
+    width: 140px;
+    border-radius: 6px;
+    border:1px solid gray;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 0px 10px 0 10px;
+}
+
+.Input_1{
+    height: 40px;
+    width: 210px;
+    border-radius: 6px;
+    border:1px solid gray;
+    background-color: rgb(255, 255, 255);
+    padding-left: 25px;
+    color: black;
+}
+
+.Input_2{
+    height: 40px;
+    width: 210px;
+    border-radius: 6px;
+    border:1px solid gray;
+    background-color: rgb(255, 255, 255);
+    padding-left: 9px;
+    padding-top: 4px;
+    color: black;
+}
+
+.finalButton{
+    height: 60px;
+    width: 220px;
+    margin-left: 10px;
+    position: relative;
+    border: 1px solid gray;
+    background-color: rgb(255, 45, 227);
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 3px;
+    top: -20px;
+}
+
+.finalButtonModif{
+    @extend .finalButton;
+    height: 66px !important;
+    width: 226px !important;
+    top: -23px;
+    margin-bottom: 0 !important;
+    left: -3px;
+    font-size: 17px;
+}

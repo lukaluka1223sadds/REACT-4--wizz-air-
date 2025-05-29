@@ -1,0 +1,29 @@
+{
+  "name": "wizziar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@reduxjs/toolkit": "^2.8.2",
+    "antd": "^5.25.1",
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "swiper": "^11.2.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^20.17.51",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  }
+}

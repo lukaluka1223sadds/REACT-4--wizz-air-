@@ -1,0 +1,95 @@
+.Input1{
+    height: 40px;
+    width:140px;
+    margin-left: 10px;
+}
+
+.Input2{
+    height: 40px;
+    width: 210px;
+    margin-left: 10px;
+    border: 1px solid rgb(218, 213, 213);
+     background-color: white;
+     color:gray;
+     border-radius: 7px;
+}
+
+.button_grid{
+   padding-top: 5px;
+}
+
+.clickArrMinus{
+    margin: 0 10px 0 8px;
+}
+.clickArrMinus3{
+    margin: 0 0 0 21px;
+}
+
+.clickArrMinus2{
+    margin: 0 0 0 24px;
+}
+.clickArrMinus1{
+    margin: 0 0 0 36px;
+}
+
+.Buttons{
+    height: 50px;
+    width: 180px;
+    border: 1px solid rgb(160, 150, 150);
+    border-radius: 6px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.Inputs{
+    height: 40px;
+    width: 180px;
+    border: 1px solid rgb(161, 159, 159);
+    border-radius: 6px;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+}
+
+.labels b{
+    &:first-child{
+      margin-left: 45px;
+      margin-top: 10px;
+    }
+    &:nth-child(2){
+        margin-left: 85px;
+        margin-top: 10px;
+    }
+    &:nth-child(3){
+        margin-left: 175px;
+        margin-top: 10px;
+    }
+    &:nth-child(4){
+        margin-left: 210px;
+        margin-top: 10px;
+    }
+    &:nth-child(5){
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+}
+
+.finalButton{
+    height: 60px;
+    width: 220px;
+    margin-left: 50px;
+    position: relative;
+    top: -15px;
+    border: 1px solid gray;
+    background-color: rgb(255, 45, 227);
+    border-radius: 10px;
+}
+
+.finalButtonModif{
+    @extend .finalButton;
+    height: 66px !important;
+    width: 226px !important;
+    margin-left: 47px !important;
+    margin-top: -3px;
+    font-size: 17px;
+}
