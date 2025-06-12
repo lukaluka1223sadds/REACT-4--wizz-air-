@@ -1,22 +1,23 @@
-"use client"
-import { useEffect, useState } from "react";
-import Wizziar from "./components/component1/page";
-import styles from "./page.module.css"
-import App from "./components/component2/page";
+"use client";
 
-export default function Home(){
-  const [change, setChange] = useState(true);
-  const [router , setRouter]= useState("1")
-  const promise=new Promise((resolve,reject)=>{
-    setTimeout(function(){
-      resolve
-    },5000)
-  })
-  const pr=promise
-  pr.then(()=>{
-    setChange(prevState => !prevState)
-  })
-  useEffect(()=>{
-  },[change])
-  return (<><App></App></>)
+import { useState, useEffect } from "react";
+import App from "./components/component2/page";
+import {Loading} from "./loadin"
+
+export default function Home() {
+  const [change, setChange] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setChange(true);
+    }, 5000);
+
+    return () => clearTimeout(timer); 
+  }, []);
+
+  return (
+    <>
+      {change ? <App /> : <Loading/>}
+    </>
+  );
 }
